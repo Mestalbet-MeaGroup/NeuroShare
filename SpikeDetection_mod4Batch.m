@@ -28,7 +28,18 @@ Params.AddWaveletCoeff=1;
 Params.RemoveSubThreshSpikes=0;
 %%
 % set path to access FIND neuroshare_loader_all.m and DLL
-DllPath='C:\Neuroshare\FIND\';% FIND_2.0 path
+hostname = char( getHostName( java.net.InetAddress.getLocalHost ) );
+if strcmp(hostname,'CZC2X')
+    DllPath= 'D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND';
+else
+    if strcmp(hostname,'NoahLaptop')
+        DllPath='D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND';
+    else
+        error('You need the assert function from FIND toolbox. Change the path for this computer');
+    end
+end
+
+% DllPath='C:\Neuroshare\FIND\';% FIND_2.0 path
 DLLName = 'nsMCDLibrary64.dll';
 DLLfile = fullfile(DllPath, DLLName);
 [ns_RESULT] = ns_SetLibrary(DLLfile);
