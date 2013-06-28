@@ -1,0 +1,8 @@
+; MCStreamMEX.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MCStreamMEX"
+DESCRIPTION  'MCStreamMEX Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	mexFunction PRIVATE

@@ -1,0 +1,33 @@
+#MATLAB Preferences
+#Fri Jan 06 15:43:30 CET 2006
+FileBrowserFiveColumnWidths=S[260 100 75 150 400]
+ReplaceMatchCase=Bfalse
+ReplaceWordWrap=Bfalse
+LayoutMRU9=S
+LayoutMRU8=S
+LayoutMRU7=S
+LayoutMRU6=S
+RLPrevInitB2_null=Btrue
+ReplaceWholeWord=Bfalse
+LayoutMRU5=S
+RLWidthB2_Wb_B2_2=I125
+LayoutMRU4=S
+RLWidthB2_Wb_B2_1=I125
+LayoutMRU3=S
+RLWidthB2_Wb_B2_0=I125
+LayoutMRU2=S
+LayoutMRU1=S/global/skraft/ue.distributed/UEver-2.3/signparameters.fig
+InspectorWindowBounds=R769 14 462 873
+RLPrevInitB2_Wb_B2=Btrue
+EditorMRU9=S
+EditorMRU8=S
+EditorMRU7=S
+EditorMRU6=S
+EditorMRU5=S
+EditorMRU4=S/global/skraft/demos.distributed/GDF_sim_ver2/gdf_simulator.m
+EditorMRU3=S/global/skraft/demos.distributed/GDF_sim_ver2/Makefile
+EditorMRU2=S/global/skraft/ue.distributed/UEver-2.3/signparameters.m
+EditorMRU1=S/global/skraft/ue.distributed/UEver-2.3/SignPlot.m
+RLHiddenB2_Wb_B2=I24
+FileBrowserFiveColumnOrder=S[0 1 2 3 4]
+FileBrowserViewMode=I0

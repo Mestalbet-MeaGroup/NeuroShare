@@ -1,0 +1,117 @@
+FIND LICENSE AGREEMENT
+
+This is a license agreement ("agreement") between you ("you", either
+an individual or work group) and the members of the FIND Consortium
+("the FIND Consortium") which covers the use of the "Finding Information In Neuronal Data (FIND)-Toolbox" data analysis
+software ("software") and all associated files.
+
+Please read this agreement carefully. Any use of the software
+constitutes an acceptace of this license agreement.
+
+1. GRANT OF NON-EXCLUSIVE LICENSE.
+
+The FIND Consortium grants the non-exclusive, non-transferable right
+for a single user or work group to use this software for research,
+teaching and other non-commercial purposes. Each additional user or
+work group of the software requires an additional license from the
+FIND Consortium. A work group is defined as you and your immediate
+colleagues.
+
+The FIND Consortium grants you the right to modify, alter, improve, or
+enhance the software without limitation, under the condition that you
+do not remove or alter any trademark, logo, copyright or other
+proprietary notice, including this license agreement, in the software.
+
+You may, at your discretion, submit changes back to the FIND Consortium.
+If you would like your changes to be incorporated into the
+software, you need to transfer the ownership of the patch to the FIND
+Consortium.
+
+You may make copies of the software as is reasonably necessary for its
+use. Each copy must reproduce all copyright and other proprietary
+rights notices, including this license agreement, on or in the
+software.
+
+You may not distribute or redistribute the software or changes made to
+the software to anyone other than the FIND Consortium.
+
+Please note:
+This program was created in the hope that it will be useful, but 
+WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+2. OBLIGATION TO CITE
+
+If you publish results which were obtained using the software, the
+software must be appropriately cited in the publication. The citation
+must appear in either the acknowledgements or the references section,
+and must contain references to the FIND Consortium and the FIND
+Consortium's web site (find.bccn.uni-freiburg.de).
+
+You may cite the following: 
+
+Meier R.,Boven  KH., Aertsen A. and Egert U. 
+FIND - Finding Information in Neural Data, 
+An open-source analysis toolbox for multiple-neuron recordings and network simulations
+(2007), Proc 7th German Neurosci Meeting, p.1212 
+
+and or use the following template in your manuscript:
+"Analysis results were obtained, using the FIND-toolbox [Meier et al. 2007], 
+available at http://find.bccn.uni-freiburg.de"
+
+3. NO RIGHT TO TRANSFER
+
+You may not rent, lease, lend, or in any way distribute or transfer
+any rights in this agreement or the software to third parties without
+the FIND Consortium's written approval, and subject to written
+agreement by the recipient of the terms of this agreement.
+
+4. THIRD PARTY RIGHTS
+
+Any software provided along with the software that is associated with
+a separate license agreement is licensed to you under the terms of
+that license agreement. This license does not apply to those portions
+of the software. Copies of these third party licenses are included in
+all copies of the software.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED TO YOU "AS IS," WITHOUT WARRANTY. THERE IS
+NO WARRANTY FOR THE SOFTWARE, EITHER EXPRESSED OR IMPLIED, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY
+RIGHTS. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
+SOFTWARE IS WITH YOU. SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU ASSUME
+THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE SOFTWARE AS PERMITTED ABOVE, BE LIABLE TO YOU FOR
+DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL
+DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE SOFTWARE
+(INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED
+INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF
+THE SOFTWARE TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER
+OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+6. CONTACT INFORMATION
+
+If you have any questions about this license agreement, or if you want
+to contact the FIND Consortium, please write to
+
+
+Dr. Ralph Meier
+
+Bernstein Center for Computational Neuroscience
+
+Albert-Ludwigs-University
+Schaenzlestrasse 1
+D-79104 Freiburg, Germany
+
+Phone: +49 (761) 203 2864 
+Fax: +49 (761) 203 2860
+
+meier@biologie.uni-freiburg.de
+
+or visit http://find.bccn.uni-freiburg.de

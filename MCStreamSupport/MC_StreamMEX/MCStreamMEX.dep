@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by MCStreamMEX.mak
+
+.\mcstream.cpp : \
+	".\mcstream.h"\
+	
+
+.\MCStreamMEX.cpp : \
+	"..\..\..\..\extern\include\matrix.h"\
+	"..\..\..\..\extern\include\mex.h"\
+	"..\..\..\..\extern\include\tmwtypes.h"\
+	".\mcstream.h"\
+	".\MCStreamMEX.h"\
+	
+
+.\MCStreamMEX.rc : \
+	".\res\MCStreamMEX.rc2"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\..\..\programme\microsoft visual studio\vc98\include\basetsd.h"\
+	".\StdAfx.h"\
+	

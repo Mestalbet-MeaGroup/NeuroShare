@@ -1,0 +1,12 @@
+Change log of MCStreamMEX
+
+* Extended MEX function to data type 'filter' 
+
+[2.2.0.1] 
+*DP Bugfix to read digital data
+
+[2.2.2.0]
+* DP Parameters of the MCSAStream methods MoveToChunk, GetRawData, GetRawDataBufferSize were changed to 
+	CMCSATimeStamp, to prevent rounding errors when accessing data with an accuracy below 1 ms.
+	Fixed a bug in GetRawData when accessing data beginning and ending in a singel chunk.
+

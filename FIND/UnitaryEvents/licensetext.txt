@@ -1,0 +1,39 @@
+
+Copyright 1997-2005 (c) by Sonja Gruen, Markus Diesmann, and Ad Aertsen
+
+You do not have permission to distribute and/or modify this
+software or any part of it except as part of the FIND Toolbox and with respect to
+the licence for it.
+
+This program was created in the hope that it will be useful, but WITHOUT 
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+FITNESS FOR A PARTICULAR PURPOSE. 
+
+Additionally there is the OBLIGATION TO CITE: 
+
+Unitary Events: Guen et al. 2000 
+FIND-Toolbox:   Meier et al. 2007
+
+
+If you have any problem, please do contact us under the following
+addresses:
+
+PD Dr. Sonja Gruen
+Computational Neuroscience Group
+RIKEN Brain Science Institute
+2-1 Hirosawa, Wako-City
+Saitama 351-198, Japan
+tel: +81-48-467-9636, ex: 7571, fax: -9670
+gruen@brain.riken.jp
+www.brain.riken.go.jp/bsi/s_gruen.html
+
+and send a Carbon Copy (esp. regarding FIND toolbox interation issues) to: 
+
+Dr. Ralph Meier
+Bernstein Center for Computational Neuroscience
+Albert-Ludwigs-University
+Schaenzlestrasse 1
+D-79104 Freiburg, Germany
+Phone: +49 (761) 203 2864 
+Fax: +49 (761) 203 2860
+meier@biologie.uni-freiburg.de 

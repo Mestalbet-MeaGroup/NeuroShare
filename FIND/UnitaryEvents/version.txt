@@ -1,0 +1,42 @@
+
+Unitary Events Analysis Software
+
+UE Version 2.3  (SG, Sept 2005, Berlin)
+---------------------------------------
+
+Most of the code has already been ported to matlab 5. 
+A few warnings due to obsolete graphics commands      
+remain. Expect bad output formatting, because we still 
+use pre TeX notation. A lot of our odd matlab 4       
+work arounds are still in the code.
+
+Call 'InstallUE' on the matlab prompt to compile the
+code and to create a standalone version.
+                
+This is the GUI-version of the UE analysis program,
+start the gui by typing 'startue' on the matlab prompt.
+
+This version also allows for distributed processing
+(using PVM) on a linux cluster or on a shared memory 
+parallel machine (see Fliegner et al (2003) Proc 4th
+German Neurosci Meeting, p. 592).   
+
+The code implemented is described in
+Gruen, Diesmann, Aertsen (2002a,b) Neural 
+Computation, 14(1): 43-80, 81-119
+
+The option to calculate trial-by-trial expectancy is
+described in 
+Gruen, Riehle, Diesmann (2003) Biological 
+Cybernetics 88(5): 335-351 
+
+The implemented code of the Combined Shuffling and Resampling
+method (CSR) is described in
+Pipa & Gruen (2003) Neurocomputing 52-54: 31-37.
+
+ 
+UEParameters_Default.mat (data14.gdf, simulates data in Riehle 
+et al (1997), Fig 4a), data12Param.mat (data12.gdf)
+and data13Param.mat (data13.gdf, simulates data in Riehle 
+et al (1997), Fig 1) are example analysis scripts that analyze 
+simulated data sets.

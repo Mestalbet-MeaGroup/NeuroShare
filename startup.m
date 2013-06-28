@@ -1,0 +1,16 @@
+p=genpath('c:\neuroshare');
+q=genpath('C:\Matlab_Files\');
+r=genpath('C:\Mark\');
+s=genpath('C:\LongTermSystemTests\');
+t=genpath('C:\ExperimentalData\');
+u=genpath('C:\FirstGliaArticle_Data');
+toremove=genpath('c:\neuroshare\FIND\');
+addpath(p);
+addpath(q);
+addpath(r);
+addpath(s);
+addpath(t);
+addpath(u);
+rmpath(toremove);
+cd('c:\FirstGliaArticle_Data');
+fclose('all');clear all; close all;clc;
