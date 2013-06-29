@@ -1,11 +1,11 @@
 function BatchSpikeDetection2()
 % matlabpool open 2;
 hostname = char( getHostName( java.net.InetAddress.getLocalHost ) );
-if hostname=='CZC2X'
+if strcmp(hostname,'CZC2X')
     addpath('D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND');
 else
-    if hostname=='NoahLaptop'
-        addpath('D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND');
+    if strcmp(hostname,'NoahLaptop')
+        addpath('C:\Users\zeiss\Documents\GitHub\NeuroShare\FIND');
     else
         error('You need the assert function from FIND toolbox. Change the path for this computer');
     end
@@ -30,11 +30,11 @@ for i=length(fileList)
     save([fileList{i}(1:end-4) '.mat'],'triggers','-append');
 end
 
-if hostname=='CZC2X'
+if strcmp(hostname,'CZC2X')
     rmpath('D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND');
 end
-if hostname=='NoahLaptop'
-    rmpath('D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND');
+if strcmp(hostname,'NoahLaptop')
+    rmpath('C:\Users\zeiss\Documents\GitHub\NeuroShare\FIND');
 end
 % matlabpool close;
 end
