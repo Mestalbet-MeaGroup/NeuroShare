@@ -35,7 +35,7 @@ function [pathname, filename] = SplitFileName(fullfilename)
 %     directories D1,D2, etc and filename FILE specified.  This is
 %     conceptually equivalent to
 
-[pathname,filename,EXT,VERSN] = fileparts(fullfilename);
+[pathname,filename,EXT] = fileparts(fullfilename);
 
 
 return

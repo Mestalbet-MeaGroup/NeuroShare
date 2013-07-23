@@ -1,4 +1,4 @@
-function pvpmod(x)
+function PVPMOD(x)
 % PVPMOD             - evaluate parameter/value pairs
 % pvpmod(x), where x is a cell array with an even number of cells, assigns
 % the value x(i+1) to the parameter defined by the string x(i) in the

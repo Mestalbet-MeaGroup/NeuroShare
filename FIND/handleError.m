@@ -63,11 +63,11 @@ switch err.identifier
         set(messageBar,'String',barMessage);
         set(messageBar,'TooltipString',barMessage);
         commandLineMessage1=['ERROR: in "' err.stack(1).name '": ' err.message];
-        [pathstr, name, ext, versn] = fileparts(err.stack(1).file);
+        [pathstr, name, ext] = fileparts(err.stack(1).file);
         commandLineMessage2=['Caused in ' name ext ', line ' ...
             num2str(err.stack(1).line) '; '];
         for iStack=2:length(err.stack)
-            [pathstr, name, ext, versn] = fileparts(err.stack(iStack).file);
+            [pathstr, name, ext] = fileparts(err.stack(iStack).file);
             commandLineMessage2=[commandLineMessage2 ...
                 'called from ' name ext ', line ' num2str(err.stack(iStack).line) '; '];
         end

@@ -709,7 +709,7 @@ end
 
 prevFile=get(findobj(gcf,'Tag','FIND_GUI_dataFileEdit'),'String');
 if ~isempty(prevFile)
-   [prevSearchPath, name, ext, versn]=fileparts(prevFile);
+   [prevSearchPath, ~, ~]=fileparts(prevFile);
    FIND_Path=pwd;
    cd(prevSearchPath)
 end
