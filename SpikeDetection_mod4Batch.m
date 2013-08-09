@@ -25,7 +25,7 @@ function SpikeDetection_mod4Batch(McdFile) %,SpikeDetectionThresh,RemoveSubThres
 MinSpikesInIndexChannel=5;
 Params.SpikeDetectionThresh=3e-5;
 Params.AddWaveletCoeff=1;
-Params.RemoveSubThreshSpikes=0;
+Params.RemoveSubThreshSpikes=1; %Changed here to eliminate subthreshold spikes. 
 %%
 % set path to access FIND neuroshare_loader_all.m and DLL
 hostname = char( getHostName( java.net.InetAddress.getLocalHost ) );
@@ -33,7 +33,7 @@ if strcmp(hostname,'CZC2X')
     DllPath= 'D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND';
 else
     if strcmp(hostname,'NoahLaptop')
-        DllPath='D:\Users\zeiss\Documents\GitHub\NeuroShare\FIND';
+        DllPath='C:\Users\Noah\Documents\GitHub\NeuroShare\FIND';
     else
         error('You need the assert function from FIND toolbox. Change the path for this computer');
     end
@@ -93,7 +93,7 @@ for ij=1:length(SelectedChannels)
     i=SelectedChannels(ij);
     co=co+1;
     [~, TimeData, VoltageData , ~, ~] = ns_GetSegmentData(hfile,i, 1:EntityInfo(i).ItemCount);
-    Params.SpikeDetectionThresh=-1*(abs(min(min(VoltageData)))-0.1*abs(min(min(VoltageData)))); %Threshold for taking only largest spikes
+    Params.SpikeDetectionThresh=-1*(abs(min(min(VoltageData)))-0.8*abs(min(min(VoltageData)))); %Threshold for taking only largest spikes
     TimeData=TimeData.*1000.*12;
     if size(VoltageData,1)==1 
         VoltageData=VoltageData';
@@ -118,11 +118,11 @@ for ij=1:length(SelectedChannels)
     VoltageData=VoltageDataTmp';
 
         for frame=1:size(VoltageData,1)
-             temp(frame)=-4*(max(abs(VoltageData(frame,:))));
+             temp(frame)=-2*(max(abs(VoltageData(frame,:)))); 
         end
 %             Params.SpikeDetectionThresh=(mean(abs(temp)));
             Thresholds_uV=max(temp);
-             
+%              Thresholds_uV=Params.SpikeDetectionThresh;
         for frame=1:length(TimeData)
 %             figure; hold on; plot(VoltageData); line(1:size(VoltageData,1),Thresholds_uV); hold off;
             [PeakAmpData,WPCoeffs]=WP3(VoltageData(frame,:),Thresholds_uV,Params); %The function recieves the threshold setting and spike detection parameters
